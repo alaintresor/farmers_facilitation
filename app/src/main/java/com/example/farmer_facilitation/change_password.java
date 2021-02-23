@@ -71,12 +71,10 @@ public class change_password extends AppCompatActivity {
                         } catch (JSONException e) {
                             e.printStackTrace();
                             Toast.makeText(getApplicationContext(), e.getMessage(), Toast.LENGTH_LONG).show();
-
                         }
 
                     } else {
                         Toast.makeText(getApplicationContext(), result, Toast.LENGTH_SHORT).show();
-
                     }
 
                 }
